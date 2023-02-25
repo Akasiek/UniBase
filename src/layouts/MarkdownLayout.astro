@@ -5,8 +5,7 @@ const { frontmatter } = Astro.props;
 ---
 
 <Layout title={`UniBase - ${frontmatter.title}`}>
-  <main class="prose prose-sm lg:prose-base dark:prose-invert px-4 md:px-8 lg:px-12">
-    {frontmatter.title && <h1>{frontmatter.title}</h1>}
+  <main class="prose prose-sm max-w-none lg:prose-base dark:prose-invert px-4 md:px-8 lg:px-12">
     <slot />
   </main>
 </Layout>
