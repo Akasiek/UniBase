@@ -29,6 +29,37 @@ const { title } = Astro.props;
   </body>
 </html>
 <style is:global>
+  @font-face {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url("/assets/fonts/poppins-regular-webfont.woff2") format("woff2"), url("/assets/fonts/poppins-regular-webfont.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url("/assets/fonts/poppins-bold-webfont.woff2") format("woff2"), url("/assets/fonts/poppins-bold-webfont.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+    src: url("/assets/fonts/poppins-italic-webfont.woff2") format("woff2"), url("/assets/fonts/poppins-italic-webfont.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+    src: url("/assets/fonts/poppins-bolditalic-webfont.woff2") format("woff2"), url("/assets/fonts/poppins-bolditalic-webfont.woff") format("woff");
+  }
   html {
     scroll-behavior: smooth;
   }
