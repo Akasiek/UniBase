@@ -1,0 +1,57 @@
+---
+interface Props {
+  lectures: {
+    date: string;
+    summary?: string;
+    youtubeLinks?: string | string[];
+    notionLink?: string;
+  }[];
+}
+
+const { lectures } = Astro.props;
+---
+
+<div class="overflow-auto">
+  <table>
+    <thead>
+      <tr>
+        <th></th>
+        <th>Data</th>
+        <th>Podsumowanie</th>
+        <th>Youtube</th>
+        <th>Notion</th>
+      </tr>
+    </thead>
+    <tbody>
+      {
+        lectures.map((lecture, index) => (
+          <tr>
+            <td>{index + 1}.</td>
+            <td>{lecture.date}</td>
+            <td>{lecture?.summary}</td>
+            <td>
+              {lecture.youtubeLinks &&
+                (Array.isArray(lecture.youtubeLinks) ? (
+                  <div class="whitespace-nowrap">
+                    {lecture.youtubeLinks.map((link, index) => (
+                      <>
+                        <a href={link}>Część {index + 1}.</a>
+                        {index + 1 !== lecture.youtubeLinks.length && (
+                          <span> | </span>
+                        )}
+                      </>
+                    ))}
+                  </div>
+                ) : (
+                  <a href={lecture.youtubeLinks}>Film</a>
+                ))}
+            </td>
+            <td>
+              {lecture.notionLink && <a href={lecture.notionLink}>Notatki</a>}
+            </td>
+          </tr>
+        ))
+      }
+    </tbody>
+  </table>
+</div>

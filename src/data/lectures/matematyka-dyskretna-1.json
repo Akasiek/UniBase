@@ -1,0 +1,42 @@
+[
+  {
+    "date": "25.02.2023",
+    "summary": "Permutacje",
+    "youtubeLinks": "https://youtu.be/7112NGiQUFw",
+    "notionLink": "https://zippy-tamarillo-525.notion.site/Matematyka-Dyskretna-Wyk-ad-1-eb64d4859695463ea30f0de98e910f95"
+  },
+  {
+    "date": "26.02.2023",
+    "summary": "Transpozycje",
+    "youtubeLinks": [
+      "https://youtu.be/A_gSEywEftM",
+      "https://youtu.be/C3uzYMwV5Qg"
+    ],
+    "notionLink": "https://zippy-tamarillo-525.notion.site/Matematyka-Dyskretna-Wyk-ad-2-72e6fa3cadc6433681cf78aa9d54fa57"
+  },
+  {
+    "date": "4.03.2023",
+    "summary": "Premutacje, rekurencje",
+    "youtubeLinks": "https://youtu.be/EVKTt2YlWLo"
+  },
+  {
+    "date": "5.03.2023",
+    "summary": "Rekurencje",
+    "youtubeLinks": [
+      "https://youtu.be/ThjGfOkGu7U",
+      "https://youtu.be/fxUJzCBHNPc"
+    ]
+  },
+  {
+    "date": "11.03.2023",
+    "youtubeLinks": "https://youtu.be/Ha7uscPsobc"
+  },
+  {
+    "date": "25.03.2023",
+    "youtubeLinks": "https://youtu.be/8U946QlLlzU"
+  },
+  {
+    "date": "1.04.2023",
+    "youtubeLinks": "https://youtu.be/zqmsdUOJ698"
+  }
+]

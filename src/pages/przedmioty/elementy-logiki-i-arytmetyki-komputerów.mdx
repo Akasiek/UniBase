@@ -3,20 +3,13 @@ layout: "../../layouts/MarkdownLayout.astro"
 title: "Elementy logiki i arytmetyki komputerów"
 ---
 
+import LectureTable from "../../components/LectureTable.astro";
+import lectureJson from "../../data/lectures/elementy-logiki-i-arytmetyki-komputerów.json";
+
 # Elementy logiki i arytmetyki komputerów
 
 ## Wykłady
 
 [**Pełna playlista Youtube**](https://www.youtube.com/playlist?list=PLxnzOnUpNzMAvL1udN8UGa1Mt_JcosjOx)
 
-<div class="overflow-auto">
-
-|     | Data       | Podsumowanie                                                            | Youtube                                                                                                  | Notion                                                                                                                               |
-| --- | ---------- | ----------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| 1.  | 26.02.2023 | Reprezentacja Informacji w Systemach Komputerowych                      | [Część&nbsp;1.](https://youtu.be/D0IXZkDOrMc)&nbsp;\|&nbsp;[Część&nbsp;2.](https://youtu.be/91UjlnbMsxY) | [Notatki](https://zippy-tamarillo-525.notion.site/Elementy-logiki-i-arytmetyki-komputer-w-Wyk-ad-1-a7a0ca4214aa498f952bd926dcd6f529) |
-| 2.  | 4.03.2023  | Reprezentacja liczb zmiennoprzecinkowych                                | [Film](https://youtu.be/epZeR-DYVso)                                                                     | [Notatki](https://zippy-tamarillo-525.notion.site/Elementy-logiki-i-arytmetyki-komputer-w-Wyk-ad-2-792c296ecb8d4e4e99b4465c643c33e7) |
-| 3.  | 11.03.2023 | Algebra Boolowska, funkcje logiczne i funktory w układzie kombinacyjnym | [Film](https://youtu.be/g1qYiZkSKvQ)                                                                     | [Notatki](https://zippy-tamarillo-525.notion.site/Elementy-logiki-i-arytmetyki-komputer-w-Wyk-ad-3-93b55cb148b14470bf67c2fe04a0775b) |
-| 4.  | 25.03.2023 | Minimalizacje                                                           | [Film](https://youtu.be/Rwnc6WRDYgU)                                                                     | [Notatki](https://zippy-tamarillo-525.notion.site/Elementy-logiki-i-arytmetyki-komputer-w-Wyk-ad-4-7e39189a32b340aab521d68bac4acb22) |
-| 5.  | 1.04.2023  | Układy sekwencyjne                                                      | [Film](https://youtu.be/gYgE57ZK6cI)                                                                     | [Notatki](https://zippy-tamarillo-525.notion.site/Elementy-logiki-i-arytmetyki-komputer-w-Wyk-ad-5-39a8c232f9304ae7b55ad6f65cec5816) |
-
-</div>
+<LectureTable lectures={lectureJson} />
