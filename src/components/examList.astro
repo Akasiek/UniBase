@@ -1,0 +1,25 @@
+---
+interface Props {
+  subject: string;
+}
+
+const { subject } = Astro.props;
+
+import examsJson from "../data/exams.json";
+---
+
+<h2>Zaliczenia</h2>
+
+{
+  examsJson[subject] ? (
+    <ul>
+      {examsJson[subject].map((exam: { type: string; date: string }) => (
+        <li>
+          <b>{exam.type}</b> - {exam.date}
+        </li>
+      ))}
+    </ul>
+  ) : (
+    <p>Pusto...</p>
+  )
+}

@@ -5,6 +5,7 @@ title: "Algorytmy i struktury danych"
 
 import LectureTable from "../../components/LectureTable.astro";
 import lectureJson from "../../data/lectures/algorytmy-i-struktury-danych.json";
+import ExamList from "../../components/examList.astro";
 
 # Algorytmy i struktury danych
 
@@ -14,7 +15,4 @@ import lectureJson from "../../data/lectures/algorytmy-i-struktury-danych.json";
 
 <LectureTable lectures={lectureJson} />
 
-## Zaliczenia
-
-- Egzamin - 24.06.2023, godzina 10:00, sala B305
-- Poprawa egzaminu - 8.07.2023, godzina 10:00, sala B305
+<ExamList subject="Algorytmy i struktury danych" />

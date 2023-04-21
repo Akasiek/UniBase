@@ -3,6 +3,8 @@ layout: "../layouts/MarkdownLayout.astro"
 title: "Home"
 ---
 
+import AllExamsList from "../components/allExamsList.astro";
+
 # UniBase [EF0-ZI-1(02)]
 
 ## [**Rozkład zajęć**](https://weii.prz.edu.pl/fcp/HGBUKOQtTKlQhbx08SlkTVRZeUTgtCgg9ACFDC0RGTXhBG1gnBVcoFW8SBDRKHg/6/public/pliki/madam/lato2023/1fi.pdf#page=2)
@@ -33,18 +35,4 @@ title: "Home"
 
 ---
 
-<h1 id="zaliczenia">Zaliczenia</h1>
-
-### Algorytmy i struktury danych
-
-- Egzamin - 24.06.2023, godzina 10:00-11:00, sala B305
-- Poprawa egzaminu - 8.07.2023, godzina 10:00-11:00, sala B305
-
-### Technika informacyjno-pomiarowa
-
-- Kolokwium z ćwiczeń - Ostatni zjazd z ćwiczeń (23.04.2023)
-- Kolokwium - Przedostatni zjazd (11.06.2023), 30 minutowe
-
-### Matematyka dyskretna
-
-- Kolokwium z ćwiczeń - Ostatni zjazd z ćwiczeń (23.04.2023)
+<AllExamsList />

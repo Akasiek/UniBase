@@ -1,0 +1,30 @@
+{
+  "Elementy logiki i arytmetyki komputerów": [
+    {
+      "type": "Kolokwium z ćwiczeń",
+      "date": "Ostatni zjazd z ćwiczeń (23.04.2023)"
+    }
+  ],
+  "Algorytmy i struktury danych": [
+    {
+      "type": "Egzamin",
+      "date": "24.06.2023, godzina 10:00-11:00, sala B305"
+    },
+    {
+      "type": "Poprawa egzaminu",
+      "date": "8.07.2023, godzina 10:00-11:00, sala B305"
+    }
+  ],
+  "Technika informacyjno-pomiarowa": [
+    {
+      "type": "Kolokwium",
+      "date": "Przedostatni zjazd (11.06.2023), 30 minutowe"
+    }
+  ],
+  "Matematyka dyskretna": [
+    {
+      "type": "Kolokwium z ćwiczeń",
+      "date": "Ostatni zjazd z ćwiczeń (23.04.2023)"
+    }
+  ]
+}

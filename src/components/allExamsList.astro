@@ -1,0 +1,24 @@
+---
+import examsJson from "../data/exams.json";
+
+const subjects = Object.keys(examsJson).sort();
+---
+
+<h1 id="zaliczenia">Zaliczenia</h1>
+
+{
+  subjects.map((subject) => (
+    <div>
+      <h2>{subject}</h2>
+      {Array.isArray(examsJson[subject]) && (
+        <ul>
+          {examsJson[subject].map((exam: { type: string; date: string }) => (
+            <li>
+              <b>{exam.type}</b> - {exam.date}
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
+  ))
+}
