@@ -1,0 +1,24 @@
+---
+interface Props {
+  subject: { type: string; date: string; summary?: string[] }[];
+}
+
+const { subject } = Astro.props;
+---
+
+<ul>
+  {
+    subject.map((exam: { type: string; date: string; summary?: string[] }) => (
+      <li>
+        <b>{exam.type}</b> - {exam.date}
+        {exam.summary && (
+          <ol>
+            {exam.summary.map((topic) => (
+              <li>{topic}</li>
+            ))}
+          </ol>
+        )}
+      </li>
+    ))
+  }
+</ul>

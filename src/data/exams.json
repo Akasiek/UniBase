@@ -3,6 +3,17 @@
     {
       "type": "Kolokwium z ćwiczeń",
       "date": "Ostatni zjazd z ćwiczeń (23.04.2023)"
+    },
+    {
+      "type": "Egzamin",
+      "date": "18.06.2023 (ostatni zjazd), 18:00",
+      "summary": [
+        "Zapis licz w standardzie IEEE754",
+        "Minimalizacja funkcji w siatce Karnaugh",
+        "Funktory i funkcje logiczne",
+        "Przerzutniki",
+        "Projektowanie licznika synchronicznego wykład z 22.04"
+      ]
     }
   ],
   "Algorytmy i struktury danych": [

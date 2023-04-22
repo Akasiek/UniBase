@@ -1,4 +1,5 @@
 ---
+import RenderExams from "./renderExams.astro";
 interface Props {
   subject: string;
 }
@@ -12,13 +13,7 @@ import examsJson from "../data/exams.json";
 
 {
   examsJson[subject] ? (
-    <ul>
-      {examsJson[subject].map((exam: { type: string; date: string }) => (
-        <li>
-          <b>{exam.type}</b> - {exam.date}
-        </li>
-      ))}
-    </ul>
+    <RenderExams subject={examsJson[subject]} />
   ) : (
     <p>Pusto...</p>
   )
