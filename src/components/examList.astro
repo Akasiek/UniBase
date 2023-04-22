@@ -13,7 +13,7 @@ import examsJson from "../data/exams.json";
 
 {
   examsJson[subject] ? (
-    <RenderExams subject={examsJson[subject]} />
+    <RenderExams subject={examsJson[subject]} client:load />
   ) : (
     <p>Pusto...</p>
   )
