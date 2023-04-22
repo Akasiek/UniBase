@@ -49,5 +49,11 @@
     "summary": "Wieloplatformowość (cd.), obsługa wejścia/wyjścia, przerwania procesora",
     "youtubeLinks": "https://youtu.be/HGzB6ZFm0Tc",
     "notionLink": "https://zippy-tamarillo-525.notion.site/Architektura-System-w-Komputerowych-Wyk-ad-8-04805c3ad2fa46b8beab4f49b042cfdc"
+  },
+  {
+    "date": "22.04.2023",
+    "summary": "Procedura przesyłania danych, bezpośredni dostęp do pamięci",
+    "youtubeLinks": "https://youtu.be/cYGT-DYyQSY",
+    "notionLink": "https://zippy-tamarillo-525.notion.site/Architektura-System-w-Komputerowych-Wyk-ad-9-c13fca76cc884df5a7e698aca90f8d17"
   }
 ]
