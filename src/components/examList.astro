@@ -1,11 +1,11 @@
 ---
-import RenderExams from "./renderExams.astro";
 interface Props {
   subject: string;
 }
 
 const { subject } = Astro.props;
 
+import RenderExams from "./renderExams";
 import examsJson from "../data/exams.json";
 ---
 

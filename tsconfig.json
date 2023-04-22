@@ -4,8 +4,14 @@
     "ignoreDeprecations": "5.0",
     "baseUrl": "src",
     "paths": {
-      "layouts/*": ["layouts/*"],
-      "data/*": ["data/*"]
-    }
+      "layouts/*": [
+        "layouts/*"
+      ],
+      "data/*": [
+        "data/*"
+      ]
+    },
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
   }
 }
