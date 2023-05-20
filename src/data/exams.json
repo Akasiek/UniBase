@@ -25,7 +25,8 @@
       "type": "Kolokwium",
       "date": "2023.05.14",
       "time": "17:00",
-      "additionalInfo": "sala B305"
+      "additionalInfo": "sala B305",
+      "happened": true
     },
     {
       "type": "Egzamin",

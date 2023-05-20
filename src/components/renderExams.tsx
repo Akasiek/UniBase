@@ -10,6 +10,7 @@ interface Exam {
   time?: string;
   additionalInfo?: string;
   summary?: string[];
+  happened?: boolean;
 }
 const RenderExams = ({ subject }: { subject: Exam[] }) => {
   dayjs.extend(relativeTime).locale("pl");
@@ -32,7 +33,7 @@ const RenderExam = ({ exam }: { exam: Exam }) => {
 
   return (
     dayjsDate && (
-      <li>
+      <li className={`${exam.happened ? "line-through" : ""}`}>
         <b>{exam.type}</b> -{" "}
         {hasTime
           ? dayjsDate.format("D MMMM YYYY, dddd, HH:mm")
@@ -42,7 +43,12 @@ const RenderExam = ({ exam }: { exam: Exam }) => {
         {exam.summary && (
           <ol>
             {exam.summary.map((topic, index) => (
-              <li key={index}>{topic}</li>
+              <li
+                className={`${exam.happened ? "line-through" : ""}`}
+                key={index}
+              >
+                {topic}
+              </li>
             ))}
           </ol>
         )}
