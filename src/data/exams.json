@@ -29,6 +29,12 @@
       "happened": true
     },
     {
+      "type": "Poprawa kolokwium",
+      "date": "2023.06.11",
+      "time": "17:00",
+      "additionalInfo": "sala B305"
+    },
+    {
       "type": "Egzamin",
       "date": "2023.06.24",
       "time": "10:00",
