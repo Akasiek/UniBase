@@ -53,5 +53,13 @@
       "date": "2023.06.11",
       "additionalInfo": "przedostatni zjazd, 30 minutowe"
     }
+  ],
+  "Programowanie w języku Java": [
+    {
+      "type": "Egzamin",
+      "date": "2023.06.24",
+      "time": "9:00",
+      "additionalInfo": "Sala B107"
+    }
   ]
 }
