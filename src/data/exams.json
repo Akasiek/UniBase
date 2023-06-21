@@ -4,7 +4,8 @@
       "type": "Kolokwium poprawkowe",
       "date": "2023.05.21",
       "time": "17:00",
-      "additionalInfo": "sala B305"
+      "additionalInfo": "sala B305",
+      "happened": true
     },
     {
       "type": "Egzamin",
@@ -17,7 +18,8 @@
         "Funktory i funkcje logiczne",
         "Przerzutniki",
         "Projektowanie licznika synchronicznego wykład z 22.04"
-      ]
+      ],
+      "happened": true
     }
   ],
   "Algorytmy i struktury danych": [
@@ -32,7 +34,8 @@
       "type": "Poprawa kolokwium",
       "date": "2023.06.11",
       "time": "17:00",
-      "additionalInfo": "sala B305"
+      "additionalInfo": "sala B305",
+      "happened": true
     },
     {
       "type": "Egzamin",
@@ -51,7 +54,8 @@
     {
       "type": "Kolokwium",
       "date": "2023.06.11",
-      "additionalInfo": "przedostatni zjazd, 30 minutowe"
+      "additionalInfo": "przedostatni zjazd, 30 minutowe",
+      "happened": true
     }
   ],
   "Programowanie w języku Java": [
@@ -60,6 +64,14 @@
       "date": "2023.06.24",
       "time": "9:00",
       "additionalInfo": "Sala B107"
+    }
+  ],
+  "Matematyka dyskretna": [
+    {
+      "type": "Egzamin",
+      "date": "2023.07.01",
+      "time": "9:45",
+      "additionalInfo": "Sala B305"
     }
   ]
 }
