@@ -1,0 +1,18 @@
+---
+layout: "../../layouts/MarkdownLayout.astro"
+title: "Elektronika dla Informatyków"
+---
+
+import LectureTable from "../../components/LectureTable.astro";
+import lectureJson from "../../data/lectures/elektronika-dla-informatykow.json";
+import ExamList from "../../components/examList.astro";
+
+# Elektronika dla Informatyków
+
+## Wykłady
+
+[**Pełna playlista Youtube**](https://www.youtube.com/playlist?list=PLxnzOnUpNzMCmeyK9TPnNU9L40hgY9ypf)
+
+<LectureTable lectures={lectureJson} />
+
+<ExamList subject="Elektronika dla Informatyków" />
