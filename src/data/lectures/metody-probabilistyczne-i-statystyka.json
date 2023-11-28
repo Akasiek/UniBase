@@ -17,7 +17,10 @@
   {
     "date": "28.10.2023",
     "summary": "Rozkłady “skojarzone” z rozkładem normalnym, Statystyka opisowa, Charakterystyki liczbowe struktury zbiorowości",
-    "youtubeLinks": ["https://youtu.be/5g6s_O05vQE", "https://youtu.be/lBz8MD9EoLc"],
+    "youtubeLinks": [
+      "https://youtu.be/5g6s_O05vQE",
+      "https://youtu.be/lBz8MD9EoLc"
+    ],
     "notionLink": "https://www.notion.so/Metody-probabilistyczne-i-statystyka-Wyk-ad-3-085b6e3747c84861b4c70f31acb9d79d?pvs=4"
   },
   {
@@ -28,7 +31,8 @@
   },
   {
     "date": "18.11.2023",
-    "youtubeLinks": "https://youtu.be/pQJc_johMng"
+    "youtubeLinks": "https://youtu.be/pQJc_johMng",
+    "notionLink": "https://www.notion.so/Metody-probabilistyczne-i-statystyka-Wyk-ad-5-2930037bc375407792e83fc8cfb7b0d9?pvs=4"
   },
   {
     "date": "25.11.2023",
